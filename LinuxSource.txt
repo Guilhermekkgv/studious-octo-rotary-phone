@@ -4564,7 +4564,7 @@ function Linux.Create(config)
             
             local TextBoxFrame = Linux.Instance("Frame", {
                 Parent = Input,
-                BackgroundColor3 = Color3.fromRGB(30, 30, 32),
+                BackgroundColor3 = Color3.fromRGB(22, 22, 25),
                 BackgroundTransparency = 0.7,
                 BorderSizePixel = 0,
                 Size = UDim2.new(0.5, -20, 0, 24),
@@ -4574,13 +4574,13 @@ function Linux.Create(config)
             
             Linux.Instance("UICorner", {
                 Parent = TextBoxFrame,
-                CornerRadius = UDim.new(0, 6)
+                CornerRadius = UDim.new(0, 7)
             })
             
             Linux.Instance("UIStroke", {
                 Parent = TextBoxFrame,
                 Color = Color3.fromRGB(30, 30, 30),
-                Thickness = 1,
+                Thickness = 0,
                 ApplyStrokeMode = Enum.ApplyStrokeMode.Border
             })
             
